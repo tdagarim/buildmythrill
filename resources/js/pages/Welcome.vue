@@ -65,7 +65,7 @@ import { store } from '@/routes/waitlist';
                     <Button
                         type="submit"
                         :disabled="processing"
-                        class="shrink-0"
+                        class="shrink-0 bg-[#0ecfed] text-white hover:bg-[#0ecfed]/90"
                     >
                         Notify me
                     </Button>
