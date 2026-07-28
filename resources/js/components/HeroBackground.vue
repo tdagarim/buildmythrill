@@ -56,7 +56,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <div class="fixed inset-0 -z-10 overflow-hidden" aria-hidden="true">
+    <div class="fixed inset-0 z-0 overflow-hidden" aria-hidden="true">
         <div
             ref="backgroundRef"
             class="absolute inset-0 bg-cover bg-center"
