@@ -16,14 +16,16 @@ import { store } from '@/routes/waitlist';
         <HeroBackground />
 
         <div
-            class="relative z-10 w-full max-w-md rounded-2xl border border-white/15 bg-black/40 p-8 text-center text-white shadow-2xl backdrop-blur-md sm:p-10"
+            class="relative z-10 flex w-full max-w-lg flex-col items-center px-6 text-center text-white"
         >
-            <AppLogoIcon class="mx-auto h-10 w-auto text-white" />
+            <AppLogoIcon class="h-20 w-auto drop-shadow-lg sm:h-28" />
 
-            <h1 class="mt-8 text-2xl font-semibold tracking-tight sm:text-3xl">
+            <h1
+                class="mt-8 text-3xl font-semibold tracking-tight drop-shadow-sm sm:text-4xl"
+            >
                 Something thrilling is coming.
             </h1>
-            <p class="mt-3 text-sm text-white/70">
+            <p class="mt-3 text-white/80 drop-shadow-sm">
                 Be the first to know when we launch.
             </p>
 
@@ -31,7 +33,7 @@ import { store } from '@/routes/waitlist';
                 v-bind="store.form()"
                 reset-on-success
                 v-slot="{ errors, processing, recentlySuccessful }"
-                class="mt-8"
+                class="mt-8 w-full max-w-sm"
             >
                 <p
                     v-if="recentlySuccessful"
