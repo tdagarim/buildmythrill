@@ -18,7 +18,7 @@ import { store } from '@/routes/waitlist';
         <div
             class="relative z-10 flex w-full max-w-lg flex-col items-center px-6 text-center text-white"
         >
-            <AppLogoIcon class="h-20 w-auto drop-shadow-lg sm:h-28" />
+            <AppLogoIcon class="h-28 w-auto drop-shadow-lg sm:h-36" />
 
             <h1
                 class="mt-8 text-3xl font-semibold tracking-tight drop-shadow-sm sm:text-4xl"
