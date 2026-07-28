@@ -23,8 +23,7 @@ import { store } from '@/routes/waitlist';
             <h1
                 class="mt-8 text-3xl font-semibold tracking-tight drop-shadow-sm sm:text-4xl"
             >
-                Something thrilling<br />
-                is coming.
+                Adventure made easy.
             </h1>
             <p class="mt-3 text-white/80 drop-shadow-sm">
                 Be the first to know when we launch.
